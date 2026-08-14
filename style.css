@@ -312,6 +312,47 @@ img {
     justify-content: center;
 }
 
+/* --- Summer Special Section --- */
+.summer-special {
+    padding: 80px 0;
+    background-color: var(--color-bg-primary);
+    text-align: center;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.special-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+.special-title {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: var(--color-text-dark);
+    margin-bottom: 8px;
+    letter-spacing: -0.5px;
+}
+
+.special-offer {
+    font-size: 1.5rem;
+    font-family: var(--font-body);
+    font-weight: 600;
+    color: var(--color-accent-hover);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.special-text {
+    font-size: 1.2rem;
+    font-family: var(--font-body);
+    color: var(--color-text-muted);
+    font-style: italic;
+    margin: 30px auto;
+    max-width: 600px;
+    line-height: 1.6;
+}
+
 /* --- Section Headers --- */
 .section-header {
     text-align: center;
@@ -868,6 +909,23 @@ img {
     }
 
     /* Sections */
+    .summer-special {
+        padding: 60px 0;
+    }
+
+    .special-title {
+        font-size: 2.2rem;
+    }
+
+    .special-offer {
+        font-size: 1.25rem;
+    }
+
+    .special-text {
+        font-size: 1.05rem;
+        margin: 20px auto;
+    }
+
     .services {
         padding: 80px 0;
     }
@@ -910,6 +968,18 @@ img {
 @media (max-width: 480px) {
     .hero-title {
         font-size: 2.2rem;
+    }
+
+    .special-title {
+        font-size: 1.8rem;
+    }
+
+    .special-offer {
+        font-size: 1.1rem;
+    }
+
+    .special-text {
+        font-size: 0.95rem;
     }
 
     .hero-buttons {
